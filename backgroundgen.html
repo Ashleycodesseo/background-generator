@@ -1,0 +1,23 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Gradient Background Generator</title>
+        <link rel="stylesheet" type="text/css" href="backgroundgen.css">
+
+    </head>
+
+    <body id="gradient">
+        <h1>Background Generator</h1>
+        <input class="color1" type="color" name="color1" value="#00ff00">
+        <input class="color2" type="color" name="color2" value="#ff0000">
+        <h2>Current CSS Background</h2>
+        <h3></h3>
+        <script type="text/javascript" src="backgroundgen.js" ></script>
+        <!--We could have done this a different way too:
+        Even though the eventListener is the best way, we could have
+        done in the input tag <input onclick="" or oninput"setGradient()"
+        the difference is, adding js to html and using the js
+        file is more extensible-->
+    </body>
+
+</html>
